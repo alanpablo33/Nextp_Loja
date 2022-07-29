@@ -103,7 +103,13 @@ h3{
 }
 
 .sl2{
-	padding: 20px
+	padding: 20px;
+	margin-top: -5%;
+}
+
+.preco{
+	color: #02b302;
+
 }
 
 /*Topo*/
@@ -137,12 +143,18 @@ h3{
 .logo{
 	width: 75px;
 	height: 75px;
+	margin-inline: -250px;
+}
+
+.log{
+	padding: 13%;
 }
 
 .links-topo{
 	display: flex;
 	padding: 10px;
 	margin: 10px;
+	margin-left: 1000px;
 }
 
 .links-topo a{
@@ -168,7 +180,7 @@ h3{
 	align-items: center;
 	width: 100%;
 	height: 100vh;
-	background-image: url("imagens/APPEL1.jpg") ;
+	background-image: url("imagens/App001.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -228,9 +240,9 @@ button:hover {
 }
 footer{
     
-	
+	margin-top: 100px;
 	display: flex;
-	background-color: #ddd1d1;
+	background-color: #aba9a9;
 	/*background-image: url("imagens/roda3.jpg") ; */
 	background-repeat: no-repeat;
 	background-position: center;
@@ -242,7 +254,31 @@ footer{
 	
 }
 .descri{
-	margin-left: 700px;
+	color: #333333;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    margin: 0 auto;
+	box-sizing: border-box;
+
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 500px;
+    margin-inline-end: 0px;
+
+	font-family: Open Sans,sans-serif!important;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.desmeio{
+	
+    margin-top: 150px;
+	margin-inline: -400px;
+}
+.fff{
+	margin-inline: -400px;
 }
 .log{
 	width: 75px;
