@@ -102,7 +102,15 @@ h3{
     z-index: 10;
 }
 
+.sl2{
+	padding: 20px
+}
+
 /*Topo*/
+
+.maiin{
+	padding: 3%;
+}
 
 #cabecalho{
 	position: fixed;
@@ -155,6 +163,7 @@ h3{
 /*Inicio Conteudo*/
 
 .visao-geral{
+	padding: 62px;
 	display: flex;
 	align-items: center;
 	width: 100%;
@@ -198,30 +207,43 @@ button{
 button:hover {
 	transform: scale(1.1);
 	transition: all 0.5s;
+	background-color: #7e7e7e;
 } 
+
+
 
 
 
 
 /* Roda pe */
 
+.pag{
+	display: flex;
+	margin: 50px;
 
+}
 
+.logoo{
+	padding: 20%;
+}
 footer{
     
 	
 	display: flex;
-	background-image: url("imagens/roda3.jpg") ;
+	background-color: #ddd1d1;
+	/*background-image: url("imagens/roda3.jpg") ; */
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	color:#fff;
+	color:rgb(0, 0, 0);
 	font-size: 14px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	width: 100%;
 	
 }
-
+.descri{
+	margin-left: 700px;
+}
 .log{
 	width: 75px;
 	height: 75px;
